@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="deRESET.css">
+    <link rel="stylesheet" href="deESTILO.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <title>Driven Eats</title>
+  </head>
+  <body>
+
+    <div class = "div-mae">
+
+      <div class = "topo">
+          <div class = "escritos-topo">
+              <p class = "titulo">DrivenEats</p>
+              <p class = "sub-titulo">Sua comida em 6 minutos</p>
+          </div>
+      </div>
+
+      <div class = "baixo">
+        <div class = "destaque-baixo">
+          <p class = "linha1">Selecione os 3 itens</p>
+          <p class = "linha2">para fechar o pedido</p>
+        </div>
+      </div>
+
+      <div class = "baixo-check check1">
+        <div class = "destaque-baixo-check">
+          <p class = "linha1">Fechar pedido</p>
+          
+        </div>
+      </div>
+
+      <div class = "giga">
+
+            <div class = "opcoes">
+
+              <p class = "primeiro">Primeiro, seu prato</p>
+
+              <div class = "scroll">
+
+                <div onclick="selecaoBorda1(this); selecaoCheck1(); pronto()" class = "caixa  x1">
+                  <div class = "ajuste">
+                    <img src = "imagensDE/burger-x.png" class = "foto-pedido">
+                    <p class = "nome-pedido">x-burger</p>
+                    <p class = "descricao-pedido">carne e pao</p>
+                    <p class = "preco">R$ 15,90</p>
+                  </div>
+                  <ion-icon class = "check1 ion1 ion-padrao p1" name="checkmark-circle"></ion-icon>
+                </div>
+
+                <div onclick="selecaoBorda1(this); selecaoCheck2(); pronto()" class = "caixa  x2">
+                  <div class = "ajuste">
+                    <img src = "imagensDE/burger-x.png" class = "foto-pedido">
+                    <p class = "nome-pedido">x-burger</p>
+                    <p class = "descricao-pedido">carne e pao</p>
+                    <p class = "preco">R$ 15,90</p>
+                  </div>
+                  <ion-icon class = "check1 ion2 ion-padrao p2" name="checkmark-circle"></ion-icon>
+                </div>
+
+                <div onclick="selecaoBorda1(this); selecaoCheck3(); pronto()" class = "caixa  x3">
+                  <div class = "ajuste">
+                    <img src = "imagensDE/burger-x.png" class = "foto-pedido">
+                    <p class = "nome-pedido">x-burger</p>
+                    <p class = "descricao-pedido">carne e pao</p>
+                    <p class = "preco">R$ 15,90</p>
+                  </div>
+                  <ion-icon class = "check1 ion3 ion-padrao p3" name="checkmark-circle"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class = "opcoes">
+
+              <p class = "primeiro">Agora, sua bebida</p>
+
+              <div class = "scroll">
+
+                <div onclick="selecaoBorda2(this); selecaoCheck4(); pronto()" class = "caixa caixa21">
+                  <div class = "ajuste">
+                    <img src = "imagensDE/grapete.jpeg" class = "foto-pedido">
+                    <p class = "nome-pedido">refri</p>
+                    <p class = "descricao-pedido">refri grapete lata 350ml</p>
+                    <p class = "preco">R$ 4,50</p>
+                  </div>
+                  <ion-icon class = "check1 ion4 ion-padrao p4" name="checkmark-circle"></ion-icon>
+                </div>
+
+                <div onclick="selecaoBorda2(this); selecaoCheck5(); pronto()" class = "caixa caixa22">
+                  <div class = "ajuste">
+                    <img src = "imagensDE/grapete.jpeg" class = "foto-pedido">
+                    <p class = "nome-pedido">refri</p>
+                    <p class = "descricao-pedido">refri grapete lata 350ml</p>
+                    <p class = "preco">R$ 4,50</p>
+                  </div>
+                  <ion-icon class = "check1 ion5 ion-padrao p5" name="checkmark-circle"></ion-icon>
+                </div>
+
+                <div onclick="selecaoBorda2(this); selecaoCheck6(); pronto()" class = "caixa caixa23">
+                  <div class = "ajuste">
+                    <img src = "imagensDE/grapete.jpeg" class = "foto-pedido">
+                    <p class = "nome-pedido">refri</p>
+                    <p class = "descricao-pedido">refri grapete lata 350ml</p>
+                    <p class = "preco">R$ 4,50</p>
+                  </div>
+                  <ion-icon class = "check1 ion6 ion-padrao p6" name="checkmark-circle"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div >
+
+              <p class = "primeiro">Por fim, sua sobremesa</p>
+
+              <div class = "scroll">
+
+                <div onclick="selecaoBorda3(this); selecaoCheck7(); pronto()" class = "caixa caixa31">
+                  <div class = "ajuste">
+                    <img src = "imagensDE/pudim.jpeg" class = "foto-pedido">
+                    <p class = "nome-pedido">pudim</p>
+                    <p class = "descricao-pedido">um delicioso pudim caseiro</p>
+                    <p class = "preco">R$ 8,99</p>
+                  </div>
+                  <ion-icon class = "check1 ion7 ion-padrao p7" name="checkmark-circle"></ion-icon>
+                </div>
+
+                <div onclick="selecaoBorda3(this); selecaoCheck8(); pronto()" class = "caixa caixa32">
+                  <div class = "ajuste">
+                    <img src = "imagensDE/pudim.jpeg" class = "foto-pedido">
+                    <p class = "nome-pedido">pudim</p>
+                    <p class = "descricao-pedido">um delicioso pudim caseiro</p>
+                    <p class = "preco">R$ 8,99</p>
+                  </div>
+                  <ion-icon class = "check1 ion8 ion-padrao p8" name="checkmark-circle"></ion-icon>
+                </div>
+
+                <div onclick="selecaoBorda3(this); selecaoCheck9(); pronto()" class = "caixa caixa33">
+                  <div class = "ajuste">
+                    <img src = "imagensDE/pudim.jpeg" class = "foto-pedido">
+                    <p class = "nome-pedido">pudim</p>
+                    <p class = "descricao-pedido">um delicioso pudim caseiro</p>
+                    <p class = "preco">R$ 8,99</p>
+                  </div>
+                  <ion-icon class = "check1 ion9 ion-padrao p9" name="checkmark-circle"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+      </div>
+
+
+
+    </div>
+
+    <script src="banana.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  </body>
+</html>

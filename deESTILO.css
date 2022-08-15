@@ -1,0 +1,225 @@
+
+
+.div-mae{
+    width: 435px;
+    height: auto;
+    background-color: #e5e5e5;
+    position: relative;
+    z-index:0;
+}
+
+.topo{
+    
+    height: 92px;
+    background-color: #CF2B2B;
+    padding-top: 8px;
+    padding-left: 21px;
+    filter: drop-shadow(0 0 0.2rem lightgray);
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 414px;
+    z-index: 1;
+}
+
+.baixo{
+    height: 92px;
+    background-color: #FFFFFF;
+    width: 435px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom:0;
+    z-index: 1;
+    
+}
+
+.baixo-check{
+    height: 92px;
+    background-color: #FFFFFF;
+    width: 435px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom:0;
+    z-index: 1;
+    
+}
+
+.destaque-baixo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #CBCBCB;
+    width: 364px;
+    height: 61px;
+    border-radius: 60px;
+}
+
+.destaque-baixo-check{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #32B72F;
+    width: 364px;
+    height: 61px;
+    border-radius: 60px;
+    
+}
+
+.destaque-baixo p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
+}
+
+.destaque-baixo-check p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
+}
+
+.titulo{
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 55px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF
+}
+
+.sub-titulo{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.giga{
+    padding-left: 19px;
+    padding-top: 130px;
+    padding-bottom:112px;
+    z-index: 0;
+}
+
+.opcoes{
+    margin-bottom: 27px;
+}
+
+.primeiro{
+    
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.018em;
+}
+
+.scroll{
+    display: flex;
+    overflow: scroll;
+    margin-top: 17px;
+}
+
+.caixa{
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    padding: 18px 10px 14px;
+    margin-right: 16px;
+    position: relative;
+}
+
+.sb1{
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+}
+
+.sb2{
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+}
+
+.sb3{
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+}
+
+.check1{
+    display: none;
+} 
+
+.ion-padrao{
+    position: absolute;
+    bottom: 14px;
+    right: 14px;
+    color: green;
+    height: 19px;
+    width: 19px;
+    
+}
+
+.ajuste{
+    margin-left: 0px;
+}
+
+.foto-pedido{
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.nome-pedido{
+    max-width: 139px;
+    margin-bottom: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.descricao-pedido{
+    max-width: 147px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #A6A6A6;
+}
+
+.preco {
+    max-width: 75px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-top: 4px;
+}
+
+
+
+
+
